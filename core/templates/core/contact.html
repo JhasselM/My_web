@@ -1,0 +1,53 @@
+{% extends "core/base.html" %}
+
+{% block title %}Contact{% endblock %} 
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Contact</h1>
+    <!-- <span class="subheading">Asesoría</span> -->
+{% endblock %}
+
+{% block content %}
+<section class="contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p style="text-align: center; font-size: 30px;"><strong>Welcome to my professional website!</strong></p>
+        <p style="text-align: justify;">My name is Jhassel and I am passionate about programming. I have collaborated on several projects that have led to success for my teams and clients, with a special focus on the Python language.</p>
+        <p style="text-align: justify;">My approach focuses on combining creativity, technical skills and passion for innovation to deliver exceptional results. I strongly believe in the importance of teamwork and collaboration, always looking for opportunities to learn and grow both professionally and personally.</p>
+        <p style="text-align: justify;">If you are looking for a committed, results-oriented professional who is passionate about programming, you've come to the right place! I'm excited about the possibility of collaborating on new projects and contributing to the success of your company or organization.</p>
+        <p style="text-align: justify;">Feel free to contact me to discuss how we can work together. I'm eager to hear about your needs and explore how I can be of assistance.</p>
+        <p style="text-align: justify;">I look forward to hearing from you soon!</p>
+        <p style="text-align: justify;">Sincerely, Jhassel.</p>
+        <br>
+        <p><strong>Contact me:</strong></p>
+        <ul>
+          <li><a href="mailto:jhass1404@gmail.com" target="_blank">E-mail</a></li>
+          <li><a href="https://www.linkedin.com/in/jhassel-lopez/" target="_blank">Linkedin</a></li>
+          <li><a href="https://github.com/JhasselM" target="_blank">Github</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block styles %}
+<style>
+.contacto p {
+  text-align: justify;
+  margin-bottom: 10px; /* Ajusta el espacio entre los párrafos */
+}
+
+.contacto ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacto ul li {
+  margin-bottom: 5px; /* Ajusta el espacio entre los elementos de la lista */
+}
+</style>
+{% endblock %}

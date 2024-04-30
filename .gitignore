@@ -1,0 +1,15 @@
+mejoras.txt 
+
+#entorno virtual
+/venv
+
+#base de datos
+db.sqlite3
+
+
+#archivos caché
+*.pyc
+__pycache__/
+
+#Archivos estaticos
+core/static/

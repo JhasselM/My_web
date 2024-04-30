@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1 class="text-center">About</h1>
+<!--span class="subheading text-center">Biografía</span-->
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Jhassel Lopez</h2>
+        <p>
+            <strong>Backend Developer</strong>.
+        </p>
+
+        <p style="text-align: justify;">
+            Despite my background in International Business, my focus has been on specializing in backend programming, specifically using Python, a language I am passionate about. This combination of skills allows me to approach projects from a unique perspective, merging business knowledge with solid technical capabilities to deliver comprehensive and effective solutions.
+        </p>
+        <p style="text-align: justify;">
+            I have outstanding skills in a variety of technologies, which include:
+        </p>
+
+        <ul>
+            <li>Python 3.12.2</li>
+            <li>Django 4..2</li>
+            <li>Flask 2.3.2</li>
+            <li>API's</li>
+            <!--<li>Cloud computing (AWS)</li>-->
+            <li>Git & Github</li>
+            <!--<li>Docker</li>-->
+            <li>MySQL</li>
+            <!--<li>MongoDB</li>-->
+            <li>HTML & CSS</li>
+            <li>Prompt Engineering</li>
+            <li>Indirect Tax Determination</li>
+            <li>Microsoft Office</li>
+            <li>CRM</li>
+        </ul>
+
+        <p style="text-align: justify;">
+            I am passionate about exploring and mastering new technologies in order to offer innovative and efficient solutions. My constant quest for learning and adaptation allows me to stay at the forefront in a constantly evolving environment.</strong>
+        </p>
+
+    </div>
+</div>
+{% endblock %}
