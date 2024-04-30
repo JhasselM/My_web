@@ -18,3 +18,5 @@ tomlkit==0.12.4
 tzdata==2024.1
 
 gunicorn
+dj-database-url
+psycopg2
